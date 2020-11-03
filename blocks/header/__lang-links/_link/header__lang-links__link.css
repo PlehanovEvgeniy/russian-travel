@@ -1,0 +1,22 @@
+.lang-links_link {
+margin: 0 0 0 18px;
+font-family: "Inter", "Arial", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+text-align: right;
+color: #ffffff;
+text-decoration: none;
+}
+
+@media screen and (min-width: 320px) {
+    .lang-links_link {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+.lang-links_link_select {
+   text-decoration-line: underline;
+}

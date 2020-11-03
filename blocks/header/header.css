@@ -1,9 +1,29 @@
 .header {
-    margin: 0;
-    padding: 16px 16px 0 16px;
     display: flex;
-    box-sizing: border-box;
-    justify-content: space-between;
-    align-items: center;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px auto 0 auto;
+    width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin: 28 auto 0 auto;
+        max-width: 93.75%;
+    }  
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        margin: 28 auto 0 auto;
+        max-width: 90.625%;
+    }  
+}
+
+@media screen and (max-width: 1280px) {
+    .header {
+        margin: 28 auto 0 auto;
+        max-width: 92.5%;
+    }  
 }
