@@ -13,13 +13,13 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .lead-intro {
         width: 90.625vw;
     }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .lead-intro {
         width: 76.875vw;
     }
