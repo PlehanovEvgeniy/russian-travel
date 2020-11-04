@@ -1,0 +1,7 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 64px auto 24px 0;
+    min-height: 310px;
+}
