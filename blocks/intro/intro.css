@@ -4,3 +4,15 @@
     align-items: flex-start;
     margin: 64px 16px 0 16px;
 }
+
+@media screen and (min-width: 321px) {
+    .intro {
+        margin: 88px 24px 0 24px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .intro {
+        margin: 92px auto 0 0;
+    }
+}

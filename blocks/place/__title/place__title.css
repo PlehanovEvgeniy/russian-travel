@@ -1,0 +1,10 @@
+.place__title {
+    margin: 0 16px;
+    justify-content: flex-end;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    justify-content: flex-end;
+}

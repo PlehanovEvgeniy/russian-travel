@@ -1,0 +1,7 @@
+.places {
+    margin: 64px 0 0;
+    display: grid;
+    grid-template-columns: min-content;
+    gap: 49px;
+    align-self: center;
+}
