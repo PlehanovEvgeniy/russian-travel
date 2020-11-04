@@ -2,7 +2,33 @@
     display: grid;
     align-self: center;
     width: 100%;
-    grid-template-columns: fit-content;
     grid-template-rows: repeat(3, max-content);
+    grid-template-columns: fit-content;
     row-gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .place {
+        width: 93.75%;
+        grid-template-rows: repeat(2, max-content);
+        grid-template-columns: calc(100vw * .44271) calc(100vw * .45833);
+        column-gap: 28px;
+        row-gap: 48px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place {
+        width: 90.625%;
+        grid-template-columns: calc(100vw * .4296875) calc(100vw * (.90625 - .4296875) - 32px);
+        column-gap: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .place {
+        width: 76.875%;
+        grid-template-columns: min-content max-content;
+        column-gap: 40px;
+    }
 }
